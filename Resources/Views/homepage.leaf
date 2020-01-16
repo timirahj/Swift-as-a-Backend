@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <h1>Student Grade Entry</h1>
+        </head>
+    
+  <! ––  <ul>
+        #for(student in students) {
+        <li>Student Name: #(student.name), Grade Level: #(student.gradeLevel), Math Grade: #(student.mathGrade), Science Grade: #(student.sciGrade)</li>
+        }
+    </ul> ––>
+    
+        <form method="post" action="/add">
+            <p>Student Name: <input type="text" placeholder="name" name="name"/></p>
+            <p>Grade Level: <input type="number" placeholder="K-8" name="gradeLevel"/></p>
+            <p>Math Grade: <input type="text" placeholder="letter value" name="mathGrade"/></p>
+             <p>Science Grade: <input type="text" placeholder="letter value" name="sciGrade"/></p>
+      
+            <button type="submit">Add Student Report</button>
+        </form>
+</html>
+
